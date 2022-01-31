@@ -24,8 +24,6 @@ window.addEventListener('scroll',(e) => {
     topBtn.style.display = window.pageYOffset > (mainHeight - (headerHeight + 80)) ? 'block' : 'none';
 })
 
-console.log(window.innerWidth);
-
 window.addEventListener('resize', () => {
     if (window.innerWidth > 990) {
         header.classList.remove('header-radius');
